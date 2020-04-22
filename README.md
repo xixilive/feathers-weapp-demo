@@ -18,10 +18,10 @@ use `yarn` command to install deps, and run `yarn start` to start demo server.
 
 > adapts feathers rest client for wechat mini-program
 
-[@feathers-weapp/client](https://github.com/xixilive/feathers-weapp-client)
+[@feathers-weapp/client](https://github.com/xixilive/feathers-client-weapp)
 
 ## @feathers-weapp/auth
 
 > feathers authentication strategy for wechat mini-program
 
-[@feathers-weapp/auth](https://github.com/xixilive/feathers-weapp-auth)
+[@feathers-weapp/auth](https://github.com/xixilive/feathers-authentication-weapp)
