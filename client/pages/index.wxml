@@ -1,0 +1,13 @@
+<view class="container">
+  <swiper circular="true" indicator-dots indicator-color="rgba(255, 255, 255, .15)" indicator-active-color="rgba(255, 255, 255, .75)">
+    <block wx:for="{{items}}" wx:key="time" wx:for-item="item">
+      <swiper-item>
+        <view class="time">{{item.time}}</view>
+        <view>白天 {{item.day_weather}}</view>
+        <view>夜间 {{item.night_weather}}</view>
+        <view>最高温度 {{item.max_degree}}°</view>
+        <view>最低温度 {{item.min_degree}}°</view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

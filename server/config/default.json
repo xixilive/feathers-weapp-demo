@@ -1,0 +1,32 @@
+{
+  "host": "localhost",
+  "port": "3030",
+  "public": "../public/",
+  "paginate": {
+    "default": 50,
+    "max": 100
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "entityId": "id",
+    "secret": "AUTH_SECRET",
+    "authStrategies": [
+      "jwt",
+      "weapp"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://example.com",
+      "issuer": "example",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "weapp": {
+      "appId": "WX_APP_ID",
+      "appSecret": "WX_APP_SECRET"
+    }
+  }
+}

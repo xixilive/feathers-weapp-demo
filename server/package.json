@@ -1,0 +1,48 @@
+{
+  "name": "feathers-weapp-demo-server",
+  "description": "feathers weapp demo server",
+  "version": "0.1.6",
+  "homepage": "",
+  "private": true,
+  "main": "src",
+  "keywords": [
+    ""
+  ],
+  "author": {
+    "name": "xixilive",
+    "email": "xixilive@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/",
+    "config": "config/"
+  },
+  "engines": {
+    "node": ">= 10.15.0",
+    "yarn": ">= 1.15.0"
+  },
+  "scripts": {
+    "test": "echo done",
+    "start": "DEBUG=*,-express:* node src/",
+    "docker": "docker build -t feathers-weapp-demo-server ."
+  },
+  "dependencies": {
+    "@feathers-weapp/auth": "^0.1.5",
+    "@feathersjs/authentication": "^4.5.1",
+    "@feathersjs/configuration": "^4.5.1",
+    "@feathersjs/errors": "^4.5.1",
+    "@feathersjs/express": "^4.5.1",
+    "@feathersjs/feathers": "^4.5.1",
+    "@feathersjs/transport-commons": "^4.5.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "feathers-hooks-common": "^5.0.2",
+    "helmet": "^3.21.2",
+    "lodash": "^4.17.15",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#252525",
+    "navigationBarTitleText": "上海一周天气",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#252525"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
