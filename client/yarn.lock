@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@feathers-weapp/client@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.npm.taobao.org/@feathers-weapp/client/download/@feathers-weapp/client-0.1.2.tgz#ab1450a820cfc720df987b780c8a6e93ef26b52a"
-  integrity sha1-qxRQqCDPxyDfmHt4DIpuk+8mtSo=
+"@feathers-weapp/client@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.npm.taobao.org/@feathers-weapp/client/download/@feathers-weapp/client-0.1.4.tgz#1120b117fd727fd6073c66307fa42b6e5258b00d"
+  integrity sha1-ESCxF/1yf9YHPGYwf6QrblJYsA0=

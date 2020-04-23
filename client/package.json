@@ -8,6 +8,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@feathers-weapp/client": "^0.1.2"
+    "@feathers-weapp/client": "^0.1.4"
   }
 }
